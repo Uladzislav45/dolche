@@ -403,6 +403,7 @@ ul {
 
 header {
   background: url("../../../img/favicon/header/photo_main.jpg") center center;
+  background-size: 2000px;
   padding-bottom: 215px;
 }
 
