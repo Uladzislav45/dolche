@@ -1,5 +1,6 @@
 body {
   font-family: sans-serif;
+  background: #FFF7EF;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -401,25 +402,36 @@ ul {
 }
 
 header {
-  background: url("../../../img/favicon/header/photo_main.jpg") center center no-repeat;
+  background: url("../../../img/favicon/header/photo_main.jpg") center center;
+  padding-bottom: 215px;
 }
 
 nav {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  padding: 0 80px 0 80px;
+}
+
+nav .logo {
+  width: 80px;
+  height: 80px;
 }
 
 nav a {
   text-decoration: none;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 21px;
   text-align: center;
   color: #E4D0C4;
 }
 
+nav .nav-bar {
+  margin-left: 15%;
+}
+
 nav .nav-bar a {
   margin-right: 60px;
+  font-weight: bolder;
 }
 
 nav .nav-bar a:last-child {
@@ -429,19 +441,12 @@ nav .nav-bar a:last-child {
 nav .nav-numb {
   font-family: 'Reem Kufi', sans-serif;
   text-decoration: underline;
-}
-
-nav .nav-btm {
-  background: url("../../../img/favicon/header/burger_menu.svg");
-  border: none;
-  width: 46px;
-  height: 31px;
-  cursor: pointer;
+  margin-right: 10px;
+  margin-left: auto;
 }
 
 .first_screen {
-  margin-top: 150px;
-  padding-bottom: 240px;
+  margin-top: 140px;
 }
 
 .first_screen h1 {
@@ -464,10 +469,10 @@ nav .nav-btm {
 }
 
 .first_screen p {
-  width: 60%;
+  width: 50%;
   font-style: normal;
   font-weight: 100;
-  font-size: 24px;
+  font-size: 18px;
   line-height: 32px;
   color: #894100;
 }
@@ -481,6 +486,37 @@ nav .nav-btm {
   width: 270px;
   padding: 17px 0;
   border: none;
+}
+
+.best_in_their_field {
+  background: url("../img/favicon/main/choco.jpg") left center no-repeat;
+  margin-top: 100px;
+}
+
+.best_in_their_field .best_in_their_field-text {
+  padding-top: 140px;
+  padding-bottom: 140px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: left;
+}
+
+.best_in_their_field h2 {
+  width: 50%;
+  margin-bottom: 50px;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 64px;
+  color: #000000;
+}
+
+.best_in_their_field p {
+  width: 50%;
+  font-weight: 100;
+  font-size: 18px;
+  line-height: 32px;
+  color: #000000;
 }
 
 @media screen and (min-width: 36rem) {
